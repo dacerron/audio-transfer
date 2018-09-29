@@ -1,0 +1,15 @@
+{
+  "name": "audio-transfer",
+  "version": "1.0.0",
+  "description": "* Practicing how to stream audio from one client to the rest  * tried doing this before using Node Streams fed through socket.io-stream, but it seemed like the overhead  we too great to do live audio streaming so maybe raw http requests will do better;",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "express": "^4.16.3"
+  }
+}
